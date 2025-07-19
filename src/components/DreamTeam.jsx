@@ -16,7 +16,8 @@ const DreamTeam = () => {
                     <Friends
                         key={index}
                         friend={item}
-                        isExpanded={indexImage === index}
+                        index={index}
+                        indexImage={indexImage}
                         onClick={() => clickOnImage(index)}
                     />
                 ))}
