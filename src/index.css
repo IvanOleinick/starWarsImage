@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-fixed;
+    @apply font-poller;
+    @apply bg-sky;
+    @apply text-base-color;
+
+
+  }
+
+}
+
+@theme{
+  --font-poller: 'Poller One', serif;
+  --background-image-sky: url("./assets/sky.jpg");
+  --color-base-color:#eedb00;
+}
